@@ -1,5 +1,5 @@
 .our-story {
-  padding: 80px 10%;
+  padding: 80px 10px;
   background: white;
 }
 
@@ -7,6 +7,9 @@
   display: flex;
   align-items: center;
   gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+
 }
 
 .story-text {
@@ -21,7 +24,7 @@
 
 .story-text .tagline {
   font-size: 18px;
-  color: #a67c52;
+  color: #8b5a2b;
   margin-bottom: 25px;
   font-style: italic;
 }
@@ -40,6 +43,7 @@
 .story-image img {
   width: 100%;
   border-radius: 10px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -55,9 +59,10 @@
     font-weight: bold;
   }
   .story-text p{
-    text-align: justify;
+    text-align: left;
   }
-  .story-image img {
+   .story-image img {
+    height: 300px;    
     border-radius: 5px;
   }
 }
