@@ -5,6 +5,11 @@
   font-family: Arial, sans-serif;
 }
 
+/* fix for background scrolls when menu open */
+body.menu-open {
+  overflow: hidden;
+}
+
 .navbar {
   display: flex;
   flex-direction: column;
@@ -83,7 +88,7 @@
     width: 220px;
     height: 350px;
     display: none;
-    background-color: none  ;
+    background-color: transparent ;
   }
   .nav-links{
     display:flex;
@@ -97,8 +102,14 @@
   }
   .nav-list.active{
     display: flex;
-    background-color: #0000008e
+    background-color:  rgba(0, 0, 0, 0.95);
   }
+
+  .nav-list.active {
+  background-color: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(5px); /* To Blur the background*/
+}
+
   .nav-links li a {
     color: white;
  
@@ -142,6 +153,7 @@
     background-repeat: no-repeat;
     padding: 80px 40px;
      min-height: calc(100vh - 80px);
+     z-index: 1;
 }
 /* for overlay effect on hero-img */
 .Hero::before{
@@ -155,6 +167,7 @@
   color: white;
   max-width: 50%;
   text-align: center;
+  z-index: 2
 }
 .hero-content h1 {
     font-size: 48px;
