@@ -57,3 +57,13 @@
 }
 .prev { left: -20px; }
 .next { right: -33px; }
+
+
+@media(max-width:768px){
+    .carpet-section{
+        padding: 50px 43px;
+    }
+    .carousel .prev{
+        left : -33px
+    }
+}

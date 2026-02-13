@@ -54,3 +54,23 @@
   border-radius: 12px;
 }
 
+@media (max-width : 768px){
+  .about{
+    padding: 50px 20px;
+  }
+  .about-image{
+    width: 100%;
+  }
+  .about-image img{
+    width: 100%;
+    height: 350px;
+  }
+.about-container {
+  flex-direction: column-reverse;
+  gap:30px;
+  width: 100%;
+  .about-text h3{
+    font-size: 23px;
+  }
+}
+}

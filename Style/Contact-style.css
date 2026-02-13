@@ -11,7 +11,7 @@
     flex: 1;
 }
 .contact-text h2 {
-  font-size: 42px;
+  font-size: 35px;
   letter-spacing: 2px;
   color: #777;
   text-transform: uppercase;
@@ -39,4 +39,26 @@
 .contact-text p{
     color: #777;
     line-height: 1.7;
+}
+@media(max-width:768px){
+    .Contact-Section{
+        padding: 50px 20px;
+    }
+    .contact-container{
+        flex-direction: column-reverse;
+    }
+    .Contact-map iframe{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .contact-text h2{
+        font-size: 25px;
+        
+    }
+    .social-icon{
+        font-size: 20px;
+    }
+    .contact-text{
+        font-size: 14px;
+    }
 }

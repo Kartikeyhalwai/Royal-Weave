@@ -14,7 +14,7 @@
 }
 
 .story-text h2 {
-  font-size: 42px;
+  font-size: 35px;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -41,4 +41,23 @@
   width: 100%;
   border-radius: 10px;
   object-fit: cover;
+}
+
+@media (max-width:768px){
+  .our-story{
+    padding: 50px 20px;
+  }
+  .story-container{
+    flex-direction: column-reverse;
+  }
+  .story-text h2{
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .story-text p{
+    text-align: justify;
+  }
+  .story-image img {
+    border-radius: 5px;
+  }
 }
