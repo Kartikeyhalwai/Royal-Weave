@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Weaves</title>
     <link rel="stylesheet" href="Style/style.css" />
-    <link rel="stylesheet" href="Style/about-style.css".css">
+    <link rel="stylesheet" href="Style/about-style.css">
     <link rel="stylesheet" href="Style/carpet-style.css">
     <link rel="stylesheet" href="Style/doormat-style.css">
     <link rel="stylesheet" href="Style/Runner-style.css">
@@ -22,13 +22,15 @@
       <div class="logo"><img src="img/RSLOGO.png" alt="" /></div>
 
       <!-- Hamburger -->
-      <div class="hamburger">
+      <div class="hamburger" id = "openMenu">
         <span></span>
         <span></span>
         <span></span>
       </div>
 
-      <div class="nav-list">
+      <div class="nav-list" id ="navMenu">
+        <!-- close button -->
+        <div class="close-btn" id="closeMenu">&times;</div>
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
