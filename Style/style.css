@@ -70,7 +70,9 @@ body.menu-open {
 .nav-links li a:hover {
   color: #f4b400;
 }
-
+.close-btn{
+  display: none;
+}
 
 
 @media (max-width: 768px){
@@ -85,7 +87,7 @@ body.menu-open {
     position: absolute;
     top: 100%;
     right: 0;
-    width: 50%;
+    width: 100%;
     height: auto;
     display: none;
     background-color: transparent ;
@@ -125,12 +127,15 @@ body.menu-open {
   }
 
   /* close button */
-  .close-btn {
+  .close-btn{
   font-size: 32px;
   color: #fff;
   cursor: pointer;
   padding: 0px 5px;
   text-align: right;
+}
+.close-btn.active{
+  display: block;
 }
 
 }

@@ -4,6 +4,7 @@
 
   openMenu.addEventListener("click", () => {
     navMenu.classList.add("active");
+    closeMenu.classList.add("active")
     document.body.classList.add("menu-open");   // fix for background scrolls when menu open
   });
 

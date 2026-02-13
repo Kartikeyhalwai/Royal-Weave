@@ -2,15 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Royal Weaves</title>
     <link rel="stylesheet" href="Style/style.css" />
-    <link rel="stylesheet" href="Style/about-style.css">
-    <link rel="stylesheet" href="Style/carpet-style.css">
-    <link rel="stylesheet" href="Style/doormat-style.css">
-    <link rel="stylesheet" href="Style/Runner-style.css">
-    <link rel="stylesheet" href="Style/Contact-style.css">
-    <link rel="stylesheet" href="Style/Our-Story.css">
+    <link rel="stylesheet" href="Style/about-style.css" />
+    <link rel="stylesheet" href="Style/carpet-style.css" />
+    <link rel="stylesheet" href="Style/doormat-style.css" />
+    <link rel="stylesheet" href="Style/Runner-style.css" />
+    <link rel="stylesheet" href="Style/Contact-style.css" />
+    <link rel="stylesheet" href="Style/Our-Story.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -22,13 +22,13 @@
       <div class="logo"><img src="img/RSLOGO.png" alt="" /></div>
 
       <!-- Hamburger -->
-      <div class="hamburger" id = "openMenu">
+      <div class="hamburger" id="openMenu">
         <span></span>
         <span></span>
         <span></span>
       </div>
 
-      <div class="nav-list" id ="navMenu">
+      <div class="nav-list active" id="navMenu">
         <!-- close button -->
         <div class="close-btn" id="closeMenu">&times;</div>
         <ul class="nav-links">
@@ -41,18 +41,13 @@
           <li><a href="#Contact-Section">Contact</a></li>
 
           <li>
-            <a href="#"
-              ><i class="fa-solid fa-cart-shopping"></i
-            ></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
           </li>
 
           <li>
-            <a href="#"
-              ><i class="fa-solid fa-heart"></i>
-            </a>
+            <a href="#"><i class="fa-solid fa-heart"></i> </a>
           </li>
         </ul>
-
       </div>
     </nav>
 
@@ -61,233 +56,274 @@
       <div class="hero-content">
         <h1>Handcrafted Carpets for Timeless Homes</h1>
         <p>Premium carpets woven with tradition and comfort.</p>
-        <button class="btn" onclick="location.href='#'">Explore Collection</button>
+        <button class="btn" onclick="location.href = '#'">
+          Explore Collection
+        </button>
       </div>
     </section>
 
     <!-- About Section -->
-     <section class="about" id="about">
-  <div class="about-container">
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>About Us</h2>
+          <h3>Woven with Tradition, Designed for Modern Living</h3>
 
-    <div class="about-text">
-      <h2>About Us</h2>
-      <h3>Woven with Tradition, Designed for Modern Living</h3>
+          <p>
+            At Royal Weaves, we craft premium carpets that blend traditional
+            artistry with contemporary design. Each piece is thoughtfully woven
+            to bring warmth, comfort, and timeless beauty into your home.
+          </p>
 
-      <p>
-        At Royal Weaves, we craft premium carpets that blend
-        traditional artistry with contemporary design. Each piece is
-        thoughtfully woven to bring warmth, comfort, and timeless beauty
-        into your home.
-      </p>
-
-      <ul class="about-points">
-        <li>✔ Handcrafted by skilled artisans</li>
-        <li>✔ Premium natural materials</li>
-        <li>✔ Sustainable & long-lasting quality</li>
-      </ul>
-    </div>
-
-    <div class="about-image">
-      <img src="img/carpet-weaving.jpg" alt="Carpet weaving">
-    </div>
-
-  </div>
-</section>
-
-<!-- Carpet Section -->
-    <section class="carpet-section" id="carpet-section">
-        <h2>EXPLORE OUR CARPETS</h2>
-        
-        <div class="carousel">
-            <button class="nav prev">❮</button>
-            <div class="carousel-track-container">
-                <ul class="carousel-track">
-                    <!-- card 1 -->
-                    <li class="carousel-slide">
-                        <img src="img/Screenshot 2026-02-12 151409.png" alt="">
-                        <h3>Carpet 1</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                    
-                    <!-- card 2  -->
-                    <li class="carousel-slide">
-                        <img src="img/Screenshot 2026-02-12 151456.png" alt="">
-                        <h3>carpet 2</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-
-                    <!-- card 3 -->
-                    <li class="carousel-slide">
-                        <img src="img/Screenshot 2026-02-12 151637.png" alt="">
-                        <h3>Carpet 3</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                    
-                    <!-- card 4  -->
-                    <li class="carousel-slide">
-                        <img src="img/top-view-religious-textile.jpg" alt="">
-                        <h3>Carpet 4</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                </ul>
-            </div>
-            <button class="nav next">❯</button>
-            <button class="explr-btn">EXPLORE ALL</button>
+          <ul class="about-points">
+            <li>✔ Handcrafted by skilled artisans</li>
+            <li>✔ Premium natural materials</li>
+            <li>✔ Sustainable & long-lasting quality</li>
+          </ul>
         </div>
+
+        <div class="about-image">
+          <img src="img/carpet-weaving.jpg" alt="Carpet weaving" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Carpet Section -->
+    <section class="carpet-section" id="carpet-section">
+      <h2>EXPLORE OUR CARPETS</h2>
+
+      <div class="carousel">
+        <button class="nav prev">❮</button>
+        <div class="carousel-track-container">
+          <ul class="carousel-track">
+            <!-- card 1 -->
+            <li class="carousel-slide">
+              <img
+                src="img/Screenshot 2026-02-12 151409.png"
+                alt="Handwoven Persian carpet with geometric pattern"
+              />
+              <h3>Persian Garden</h3>
+              <p class="price">$299</p>
+              <p class="description">Hand-knotted wool, 5x7 ft</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </li>
+
+            <!-- card 2  -->
+            <li class="carousel-slide">
+              <img src="img/Screenshot 2026-02-12 151456.png" alt="" />
+              <h3>Persian Garden</h3>
+              <p class="price">$299</p>
+              <p class="description">Hand-knotted wool, 5x7 ft</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </li>
+
+            <!-- card 3 -->
+            <li class="carousel-slide">
+              <img src="img/Screenshot 2026-02-12 151637.png" alt="" />
+              <h3>Persian Garden</h3>
+              <p class="price">$299</p>
+              <p class="description">Hand-knotted wool, 5x7 ft</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </li>
+
+            <!-- card 4  -->
+            <li class="carousel-slide">
+              <img src="img/top-view-religious-textile.jpg" alt="" />
+              <h3>Persian Garden</h3>
+              <p class="price">$299</p>
+              <p class="description">Hand-knotted wool, 5x7 ft</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </li>
+          </ul>
+        </div>
+        <button class="nav next">❯</button>
+        <button class="explr-btn">EXPLORE ALL</button>
+      </div>
     </section>
 
     <!-- Doormat section -->
-     <section class="carpet-section Doormat-section" id = "Doormat-section">
-        <h2>EXPLORE OUR DOORMATS</h2>
-        
-        <div class="carousel">
-            <button class="nav prev">❮</button>
-            <div class="carousel-track-container">
-                <ul class="carousel-track">
-                    <!-- card 1 -->
-                    <li class="carousel-slide">
-                        <img src="img/still-life-shoe-rack-indoors(1).jpg" alt="">
-                        <h3>Doormat 1</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                    
-                    <!-- card 2  -->
-                    <li class="carousel-slide">
-                        <img src="img/still-life-shoe-rack-indoors(2).jpg" alt="">
-                        <h3>Doormat 2</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
+    <section class="carpet-section Doormat-section" id="Doormat-section">
+      <h2>EXPLORE OUR DOORMATS</h2>
 
-                    <!-- card 3 -->
-                    <li class="carousel-slide">
-                        <img src="img/still-life-shoe-rack-indoors(1).jpg" alt="">
-                        <h3>Doormat 3</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                    
-                    <!-- card 4  -->
-                    <li class="carousel-slide">
-                        <img src="img/still-life-shoe-rack-indoors.jpg" alt="">
-                        <h3>Doormat 4</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                </ul>
-            </div>
-            <button class="nav next">❯</button>
-            <button class="explr-btn">EXPLORE ALL</button>
+      <div class="carousel">
+        <button class="nav prev">❮</button>
+        <div class="carousel-track-container">
+          <ul class="carousel-track">
+            <!-- card 1 -->
+            <li class="carousel-slide">
+              <img src="img/still-life-shoe-rack-indoors(1).jpg" alt="" />
+              <h3>Doormat 1</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+
+            <!-- card 2  -->
+            <li class="carousel-slide">
+              <img src="img/still-life-shoe-rack-indoors(2).jpg" alt="" />
+              <h3>Doormat 2</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+
+            <!-- card 3 -->
+            <li class="carousel-slide">
+              <img src="img/still-life-shoe-rack-indoors(1).jpg" alt="" />
+              <h3>Doormat 3</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+
+            <!-- card 4  -->
+            <li class="carousel-slide">
+              <img src="img/still-life-shoe-rack-indoors.jpg" alt="" />
+              <h3>Doormat 4</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+          </ul>
         </div>
+        <button class="nav next">❯</button>
+        <button class="explr-btn">EXPLORE ALL</button>
+      </div>
     </section>
     <!-- End of Doormat se  ction -->
 
     <!-- Runner Section -->
-     <section class="carpet-section Runner-section" id ="Runner-section">
-        <h2>EXPLORE OUR RUNNERS</h2>
-        
-        <div class="carousel">
-            <button class="nav prev">❮</button>
-            <div class="carousel-track-container">
-                <ul class="carousel-track">
-                    <!-- card 1 -->
-                    <li class="carousel-slide">
-                        <img src="img/full-shot-woman-stretching-inside.jpg" alt="">
-                        <h3>Runner 1</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                    
-                    <!-- card 2  -->
-                    <li class="carousel-slide">
-                        <img src="img/hand-woven-geometric-denim-area-rug-jute-braided-home-background-texture.jpg" alt="">
-                        <h3>Runner 2</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
+    <section class="carpet-section Runner-section" id="Runner-section">
+      <h2>EXPLORE OUR RUNNERS</h2>
 
-                    <!-- card 3 -->
-                    <li class="carousel-slide">
-                        <img src="img/woman-hold-cherry-hand-red-blanket-green-grass.jpg" alt="">
-                        <h3>Runner 3</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                    
-                    <!-- card 4  -->
-                    <li class="carousel-slide">
-                        <img src="img/robot-vacuum-doing-its-work-house.jpg" alt="">
-                        <h3>Runner 4</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                </ul>
-            </div>
-            <button class="nav next">❯</button>
-            <button class="explr-btn">EXPLORE ALL</button>
+      <div class="carousel">
+        <button class="nav prev">❮</button>
+        <div class="carousel-track-container">
+          <ul class="carousel-track">
+            <!-- card 1 -->
+            <li class="carousel-slide">
+              <img src="img/full-shot-woman-stretching-inside.jpg" alt="" />
+              <h3>Runner 1</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+
+            <!-- card 2  -->
+            <li class="carousel-slide">
+              <img
+                src="img/hand-woven-geometric-denim-area-rug-jute-braided-home-background-texture.jpg"
+                alt=""
+              />
+              <h3>Runner 2</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+
+            <!-- card 3 -->
+            <li class="carousel-slide">
+              <img
+                src="img/woman-hold-cherry-hand-red-blanket-green-grass.jpg"
+                alt=""
+              />
+              <h3>Runner 3</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+
+            <!-- card 4  -->
+            <li class="carousel-slide">
+              <img src="img/robot-vacuum-doing-its-work-house.jpg" alt="" />
+              <h3>Runner 4</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+          </ul>
         </div>
+        <button class="nav next">❯</button>
+        <button class="explr-btn">EXPLORE ALL</button>
+      </div>
     </section>
     <!-- End of Runnner section -->
 
     <!-- Story-section -->
-     <section class="our-story" id ="our-story">
-  <div class="story-container">
+    <section class="our-story" id="our-story">
+      <div class="story-container">
+        <div class="story-text">
+          <h2>Our Story</h2>
+          <p class="tagline">Eight decades of unmatched carpet craftsmanship</p>
 
-    <div class="story-text">
-      <h2>Our Story</h2>
-      <p class="tagline">Eight decades of unmatched carpet craftsmanship</p>
+          <p>
+            Unique Carpet Company began with a simple belief — that every space
+            deserves warmth, character, and craftsmanship.
+          </p>
 
-      <p>
-        Unique Carpet Company began with a simple belief — that every
-        space deserves warmth, character, and craftsmanship.
-      </p>
+          <p>
+            From skilled artisans to modern homes, our carpets tell stories of
+            patience, precision, and passion passed down through generations.
+          </p>
 
-      <p>
-        From skilled artisans to modern homes, our carpets tell stories
-        of patience, precision, and passion passed down through generations.
-      </p>
+          <p>
+            Today, we blend traditional weaving techniques with contemporary
+            designs to create carpets that feel timeless.
+          </p>
+        </div>
 
-      <p>
-        Today, we blend traditional weaving techniques with contemporary
-        designs to create carpets that feel timeless.
-      </p>
-    </div>
-
-    <div class="story-image">
-      <img src="img/Screenshot 2026-02-12 184104.png" alt="Carpet weaving artisans">
-    </div>
-
-  </div>
-</section>
-
-<!-- End of Our-Story Section -->
-
- <!-- Contact-section -->
-  <section class="Contact-Section" id="Contact-Section">
-    <div class="contact-container">
-      <div class="contact-text">
-        <h2>Online Enquiries</h2>
-        <p>Address:</p>
-        <p class="Address-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quidem sapiente recusandae? Architecto, veniam! Vero voluptas dolore ipsa nostrum! Laborum.</p>
-        <br>
-        <br>
-        <p>Phone: +91 12345 54321</p>
-        <br>
-        <br>
-        <p>Email: customercare@royalweaves</p>
-        <br>
-        <br>
-        <ul class="social-icon">
-          <li class="social-icon-list"><i class="fa-brands fa-square-instagram"></i></li>
-          <li class="social-icon-list"><i class="fa-brands fa-square-facebook"></i></li>
-          <li class="social-icon-list"><i class="fa-solid fa-envelope"></i></li>
-          <li class="social-icon-list"><i class="fa-brands fa-x-twitter"></i></li>
-          <li class="social-icon-list"><i class="fa-brands fa-youtube"></i></li>
-          <li class="social-icon-list"><i class="fa-brands fa-linkedin"></i></li>
-        </ul>
-
-        <p><u> Designed and developed by Kartikey Halwai.</u> </p>
+        <div class="story-image">
+          <img
+            src="img/Screenshot 2026-02-12 184104.png"
+            alt="Carpet weaving artisans"
+          />
+        </div>
       </div>
+    </section>
 
-      <div class="Contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.95060418133!2d76.76356863324338!3d28.6442874532206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1770897388243!5m2!1sen!2sin" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- End of Our-Story Section -->
+
+    <!-- Contact-section -->
+    <section class="Contact-Section" id="Contact-Section">
+      <div class="contact-container">
+        <div class="contact-text">
+          <h2>Online Enquiries</h2>
+          <p>Address:</p>
+          <p class="Address-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+            quidem sapiente recusandae? Architecto, veniam! Vero voluptas dolore
+            ipsa nostrum! Laborum.
+          </p>
+          <br />
+          <br />
+          <p>Phone: +91 12345 54321</p>
+          <br />
+          <br />
+          <p>Email: customercare@royalweaves</p>
+          <br />
+          <br />
+          <ul class="social-icon">
+            <li class="social-icon-list">
+              <i class="fa-brands fa-square-instagram"></i>
+            </li>
+            <li class="social-icon-list">
+              <i class="fa-brands fa-square-facebook"></i>
+            </li>
+            <li class="social-icon-list">
+              <i class="fa-solid fa-envelope"></i>
+            </li>
+            <li class="social-icon-list">
+              <i class="fa-brands fa-x-twitter"></i>
+            </li>
+            <li class="social-icon-list">
+              <i class="fa-brands fa-youtube"></i>
+            </li>
+            <li class="social-icon-list">
+              <i class="fa-brands fa-linkedin"></i>
+            </li>
+          </ul>
+
+          <p><u> Designed and developed by Kartikey Halwai.</u></p>
+        </div>
+
+        <div class="Contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.95060418133!2d76.76356863324338!3d28.6442874532206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1770897388243!5m2!1sen!2sin"
+            width="450"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- End of Contact-Section -->
+    </section>
+    <!-- End of Contact-Section -->
 
     <script src="js/carousel.js"></script>
     <script src="js/responsive-nav.js"></script>
